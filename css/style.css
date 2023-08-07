@@ -1,65 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 *{
     padding: 0%;
-    margin: 0.4%;
+    margin: 0.6%;
 text-decoration: none;
 list-style: none;
+letter-spacing: 0.03;
 } 
 body{
 font-family: 'Raleway','Roboto', sans-serif;
  background-color:white;
  color: #000;
-
 }
-.hero{
-    background:#2F303A ;
-    color: #ffffff;
-    line-height: 60px;
-}
-.hero-title{
-    background:#2F303A ;
-    color: #ffffff;
-    line-height: 60px;
-    text-align: center;
-}
-
-.hero-btn{
-    background-color: #2196F3;
-    color:#ffffff;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    background:#2196F3 ;
-    color:#ffffff;
-}
-
-.politicas-title{
-    color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-}
-
-.politicas-text{
-    color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
-}
-.equipo-name{
-    text-align: center;
-}
-.equipo-sub-title{
-    text-align: center;
-}
-
 
 .logo-blue{
     color: #2196F3;
@@ -68,67 +19,186 @@ font-family: Raleway;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-} 
+line-height: 1.17em;
+letter-spacing: 0.03em;
+}
 .header-home{
     color: #212121;
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+line-height: 1.17em;
+letter-spacing: 0.03em;
 }
 .header-home:hover{
     color: #2196F3;
 }
-
 .header-email{
     
-    color:black;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    color: #2196F3;
+font-size: 14px;
+font-style:Raleway;
+font-weight: 500;
+line-height:1.17em;
+letter-spacing: 0.03em;
+   
 }
 .header-email:hover{
 color: #2196F3;
-
-
-
 }
 .header-tel {
     
-    color:black;
-    font-family: Roboto;
+    color: #757575;
+    font-family:normal;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px; 
+    line-height:1.17em;
+    letter-spacing: 0.03px; 
 }
 .header-tel:hover {
     color: #2196F3;
 }
+.hero{
+    background:#2F303A ;
+    color: #ffffff;
+    line-height: 1.8em;
+    text-align: center;
+font-size:16px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+.hero-btn:hover{
+    background:#2196F3 ;
+    color:#ffffff;
 
+}
+.hero-title{
+    background:#2F303A ;
+    color: #ffffff;
+    line-height:1.3em;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
 
+}
 
-.button{
-    color: #212121;
+.hero-btn{
+    background-color: #2196F3;
+    color:#ffffff;
     cursor: pointer;
-    border-radius: 4px;
-    width: 145px;
-    height: 38px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em;
 }
-.button:focus{
-background: #2196F3;
+
+
+.politicas-title{
+    color: #212121;
+    font-family:normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.button:hover{
+
+.politicas-text{
+    color: #757575;
+font-family:normal;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71em;
+letter-spacing: 0.03em;
+}
+.diseño-title{
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing: 0.03em;
+}
+.equipo-title{
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17em;
+    letter-spacing:0.03em;
+}
+.equipo-name{
+    text-align: center;
+    color: #212121;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:1.17em;
+letter-spacing: 0.03em;
+}
+.equipo-sub-title{
+    text-align: center;
+    color: #757575;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:1.17em;
+letter-spacing: 0.03em;
+}
+.hero-triton{
+    background:#2F303A ;
+    color: #ffffff;
+    line-height: 1.8em;
+font-size:16px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+.headr-button{
+    text-align: center;
+    cursor: pointer;
+    color: #212121;
+font-family: normal;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.6em; 
+letter-spacing: 0.03em;
+width: 98;
+height: 26;
+}
+.button-chang:hover{
     background: #2196F3;
    color:#ffffff ;
-
 }
-
+.button-chang:focus{
+    background:  #2196F3;
+    color: #ffffff;
+}
+.team-diseño{
+    color: #212121;
+    font-family:normal;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2em;
+    letter-spacing: 0.06em;  
+}
+.team-profec{
+color: #757575;
+font-family: normal;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:1.8em;
+letter-spacing: 0.4;
+width: 322px; 
+}
