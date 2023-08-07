@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 *{
     padding: 0%;
-    margin: 0%;
+    margin: 0.4%;
 text-decoration: none;
 list-style: none;
 } 
@@ -26,6 +26,7 @@ font-family: 'Raleway','Roboto', sans-serif;
 .hero-btn{
     background-color: #2196F3;
     color:#ffffff;
+    cursor: pointer;
 }
 .hero-btn:hover{
     background:#2196F3 ;
@@ -52,6 +53,14 @@ font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
+.equipo-name{
+    text-align: center;
+}
+.equipo-sub-title{
+    text-align: center;
+}
+
+
 .logo-blue{
     color: #2196F3;
 text-align: right;
