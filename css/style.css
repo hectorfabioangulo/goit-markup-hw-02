@@ -15,33 +15,69 @@ font-family: 'Raleway','Roboto', sans-serif;
 .logo-blue{
     color: #2196F3;
 text-align: right;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17em;
 letter-spacing: 0.03em;
+cursor: pointer;
 }
-.header-home{
-    color: #212121;
+.link1{
+    color: #2196F3;
+    font-family: 'Raleway','Roboto', sans-serif;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.17em;
-letter-spacing: 0.03em;
+letter-spacing: 0.02em;
+text-align: left;
+width: 49px;
+top: 32px;
+left: 453px;
+cursor: pointer;
 }
-.header-home:hover{
-    color: #2196F3;
-}
-.header-email{
-    
-    color: #2196F3;
+.link2{
+ color:   #212121;
+ font-family:'Raleway','Roboto', sans-serif;
 font-size: 14px;
-font-style:Raleway;
+font-weight: 500;
+line-height: 1.14em;
+letter-spacing: 0.02em;
+text-align: left;
+width: 65px;
+top: 32px;
+left: 552px;
+cursor: pointer;
+}
+.link2:hover{
+    color: #2196F3;
+}
+.link3{
+    color:   #212121;
+    font-family: 'Raleway','Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14em;
+letter-spacing: 0.02em;
+text-align: left;
+cursor: pointer;
+width: 67px;
+top: 32px;
+left: 667px;
+}
+.link3:hover{
+    color: #2196F3;
+}
+
+.header-email{
+    font-family: 'Raleway','Roboto', sans-serif;
+    color: #757575;
+font-size: 14px;
+font-style:normal;
 font-weight: 500;
 line-height:1.17em;
 letter-spacing: 0.03em;
-   
+   cursor: pointer;
 }
 .header-email:hover{
 color: #2196F3;
@@ -49,36 +85,50 @@ color: #2196F3;
 .header-tel {
     
     color: #757575;
-    font-family:normal;
+    font-family: 'Raleway','Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height:1.17em;
-    letter-spacing: 0.03px; 
+    letter-spacing: 0.03px;
+    cursor: pointer; 
 }
 .header-tel:hover {
     color: #2196F3;
 }
 .hero{
-    background:#2F303A ;
+     background:#2F303A ;
+     font-family: 'Raleway','Roboto', sans-serif;
     color: #ffffff;
     line-height: 1.8em;
-    text-align: center;
 font-size:16px;
 font-style: normal;
 font-weight: 700;
 letter-spacing: 0.03em;
 }
-.hero-btn:hover{
-    background:#2196F3 ;
+.hero-btn{
+    background-color: #2196F3;
     color:#ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.18em;
+    font-family: 'Raleway','Roboto', sans-serif;
+font-weight: 700;
+letter-spacing: 0.06em;
+top: 430px;
+left: 666px;
+padding: 10%, 32px, 10px, ;
+border-radius: 4px;
+width: Hug (261px);
+height: Hug (50px);
 
+cursor: pointer;
 }
 .hero-title{
-    background:#2F303A ;
+    background:#2F303A;
+    font-family: 'Raleway','Roboto', sans-serif;
     color: #ffffff;
     line-height:1.3em;
-    text-align: center;
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
@@ -87,19 +137,9 @@ letter-spacing: 0.03em;
 
 }
 
-.hero-btn{
-    background-color: #2196F3;
-    color:#ffffff;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-
 .politicas-title{
     color: #212121;
-    font-family:normal;
+    font-family:'Raleway','Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -110,25 +150,32 @@ letter-spacing: 0.03em;
 
 .politicas-text{
     color: #757575;
-font-family:normal;
+font-family:'Raleway','Roboto', sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.71em;
 letter-spacing: 0.03em;
-}
+  }
 .diseño-title{
     color: #212121;
-    text-align: center;
+    font-family:'Raleway','Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height:1.17em;
     letter-spacing: 0.03em;
 }
+.diseño-block{
+    width: 373.16px;
+line-height:1.15em;
+top: 1092px;
+left: 215px;
+
+}
 .equipo-title{
     color: #212121;
-    text-align: center;
+    font-family:'Raleway','Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -136,8 +183,8 @@ letter-spacing: 0.03em;
     letter-spacing:0.03em;
 }
 .equipo-name{
-    text-align: center;
     color: #212121;
+    font-family:'Raleway','Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -145,8 +192,8 @@ line-height:1.17em;
 letter-spacing: 0.03em;
 }
 .equipo-sub-title{
-    text-align: center;
     color: #757575;
+    font-family:'Raleway','Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -156,18 +203,19 @@ letter-spacing: 0.03em;
 .hero-triton{
     background:#2F303A ;
     color: #ffffff;
+    font-family: 'Raleway','Roboto', sans-serif;
     line-height: 1.8em;
 font-size:16px;
 font-style: normal;
 font-weight: 700;
 letter-spacing: 0.03em;
 }
+
+
 .headr-button{
-    text-align: center;
-    cursor: pointer;
     color: #212121;
-font-family: normal;
-font-size: 16px;
+    font-family: 'Raleway','Roboto', sans-serif;
+font-size: 23px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.6em; 
@@ -178,14 +226,16 @@ height: 26;
 .button-chang:hover{
     background: #2196F3;
    color:#ffffff ;
+   cursor: pointer;
 }
 .button-chang:focus{
     background:  #2196F3;
     color: #ffffff;
+    cursor: pointer;
 }
 .team-diseño{
     color: #212121;
-    font-family:normal;
+    font-family: 'Raleway','Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -194,7 +244,7 @@ height: 26;
 }
 .team-profec{
 color: #757575;
-font-family: normal;
+font-family: 'Raleway','Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
