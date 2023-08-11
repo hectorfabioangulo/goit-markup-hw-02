@@ -41,7 +41,7 @@ cursor: pointer;
 }
 
 .header-email{
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #757575;
 font-size: 14px;
 font-style:normal;
@@ -56,7 +56,7 @@ color:var(--blue);
 .header-tel {
     
     color: #757575;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -69,7 +69,7 @@ color:var(--blue);
 }
 .hero{
      background:#2F303A ;
-     font-family: 'Raleway','Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     line-height: 1.8em;
 font-size:16px;
@@ -83,14 +83,14 @@ letter-spacing: 0.03em;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.18em;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 font-weight: 700;
 letter-spacing: 0.06em;
 cursor: pointer;
 }
 .hero-title{
     background:#2F303A;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     color: #ffffff;
     line-height:1.3em;
     font-size: 44px;
@@ -103,7 +103,7 @@ cursor: pointer;
 
 .politicas-title{
     color: #212121;
-    font-family:'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -114,7 +114,7 @@ cursor: pointer;
 
 .politicas-text{
     color: #757575;
-font-family:'Raleway','Roboto', sans-serif;
+font-family:'Roboto', sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -123,7 +123,7 @@ letter-spacing: 0.03em;
   }
 .diseño-title{
     color: #212121;
-    font-family:'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -138,7 +138,7 @@ line-height:1.15em;
 }
 .equipo-title{
     color: #212121;
-    font-family:'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -147,7 +147,7 @@ line-height:1.15em;
 }
 .equipo-name{
     color: #212121;
-    font-family:'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -156,7 +156,7 @@ letter-spacing: 0.03em;
 }
 .equipo-sub-title{
     color: #757575;
-    font-family:'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
