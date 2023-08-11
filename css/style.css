@@ -6,14 +6,17 @@ text-decoration: none;
 list-style: none;
 letter-spacing: 0.03;
 } 
+:root{
+    --blue:#2196F3;
+}
 body{
-font-family: 'Raleway','Roboto', sans-serif;
+font-family:'Roboto', sans-serif;
  background-color:white;
  color: #000;
 }
 
 .logo-blue{
-    color: #2196F3;
+    color:var(--blue);
 text-align: right;
 font-family: 'Raleway';
 font-size: 26px;
@@ -23,50 +26,18 @@ line-height: 1.17em;
 letter-spacing: 0.03em;
 cursor: pointer;
 }
-.link1{
-    color: #2196F3;
-    font-family: 'Raleway','Roboto', sans-serif;
+.link{
+    color:#212121;
+    font-family: 'Roboto', sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.17em;
 letter-spacing: 0.02em;
 text-align: left;
-width: 49px;
-top: 32px;
-left: 453px;
 cursor: pointer;
 }
-.link2{
- color:   #212121;
- font-family:'Raleway','Roboto', sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14em;
-letter-spacing: 0.02em;
-text-align: left;
-width: 65px;
-top: 32px;
-left: 552px;
-cursor: pointer;
-}
-.link2:hover{
-    color: #2196F3;
-}
-.link3{
-    color:   #212121;
-    font-family: 'Raleway','Roboto', sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14em;
-letter-spacing: 0.02em;
-text-align: left;
-cursor: pointer;
-width: 67px;
-top: 32px;
-left: 667px;
-}
-.link3:hover{
-    color: #2196F3;
+.link:hover{
+    color: var(--blue);
 }
 
 .header-email{
@@ -80,7 +51,7 @@ letter-spacing: 0.03em;
    cursor: pointer;
 }
 .header-email:hover{
-color: #2196F3;
+color:var(--blue);
 }
 .header-tel {
     
@@ -94,7 +65,7 @@ color: #2196F3;
     cursor: pointer; 
 }
 .header-tel:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .hero{
      background:#2F303A ;
@@ -107,7 +78,7 @@ font-weight: 700;
 letter-spacing: 0.03em;
 }
 .hero-btn{
-    background-color: #2196F3;
+    background-color: var(--blue);
     color:#ffffff;
     cursor: pointer;
     font-size: 16px;
@@ -115,13 +86,6 @@ letter-spacing: 0.03em;
     font-family: 'Raleway','Roboto', sans-serif;
 font-weight: 700;
 letter-spacing: 0.06em;
-top: 430px;
-left: 666px;
-padding: 10%, 32px, 10px, ;
-border-radius: 4px;
-width: Hug (261px);
-height: Hug (50px);
-
 cursor: pointer;
 }
 .hero-title{
@@ -169,8 +133,7 @@ letter-spacing: 0.03em;
 .diseño-block{
     width: 373.16px;
 line-height:1.15em;
-top: 1092px;
-left: 215px;
+
 
 }
 .equipo-title{
@@ -203,7 +166,7 @@ letter-spacing: 0.03em;
 .hero-triton{
     background:#2F303A ;
     color: #ffffff;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.8em;
 font-size:16px;
 font-style: normal;
@@ -214,28 +177,26 @@ letter-spacing: 0.03em;
 
 .headr-button{
     color: #212121;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-size: 23px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.6em; 
-letter-spacing: 0.03em;
 width: 98;
 height: 26;
 }
 .button-chang:hover{
-    background: #2196F3;
-   color:#ffffff ;
+    background: var(--blue);
    cursor: pointer;
 }
 .button-chang:focus{
-    background:  #2196F3;
+    background:  var(--blue);
     color: #ffffff;
     cursor: pointer;
 }
 .team-diseño{
     color: #212121;
-    font-family: 'Raleway','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -244,11 +205,10 @@ height: 26;
 }
 .team-profec{
 color: #757575;
-font-family: 'Raleway','Roboto', sans-serif;
+font-family:'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height:1.8em;
 letter-spacing: 0.4;
-width: 322px; 
 }
