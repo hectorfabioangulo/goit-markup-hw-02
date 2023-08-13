@@ -4,109 +4,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header-navigation">
-            <a href="./index.html" class="header-home link current">
-                <span class="logo-blue"> WebStudio</span> </a>
 
-            <ul class="header-menu-list">
-                <li class="header-menu-item 1">
-                    <a href="./index.html" class="link"> Estudio</a>
+    <header class="header">
+
+        <nav class="container navigation__container  pv-main">
+
+            <ul class="hero__navegation list  p-0">
+
+                <li>
+                    <a href="./index.html" class="header-home link">
+                        <span class="logo-blue"> WebStudio</span> </a>
                 </li>
 
-                <li class="header-menu-item 2">
+                <li>
+                    <a href="./index.html" class="header-menu current  link "> Estudio</a>
+                </li>
+
+                <li>
                     <a href="./portafolio.html" class="link">portafolio</a>
                 </li>
-                <li class="header-menu-item 3">
+                <li>
                     <a href="#" class="link">Contacto</a>
                 </li>
             </ul>
+
+
+            <ul class="hero__contact list p-0 ">
+                <li class=""><a class="header-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class=""> <a class="header-tel link" href="tel:+525555296000">+52 55 5529 6000</a>
+                </li>
+            </ul>
+
+
         </nav>
-        <ul class="header-contacts list">
-            <li class=""><a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class=""> <a class="header-tel" href="tel:+525555296000">+52 55 5529 6000</a>
-            </li>
-        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </header>
     <main>
-        <section class="hero">
-            <h3 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO </h3>
-            <button type="button" class="hero-btn">Solicite nuestro servicio </button>
+        <section class=" hero section ">
+            <div class="container title_container">
+
+                <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO </h1>
+
+
+                <div>
+                    <button type="button" class="hero-btn">Solicite nuestro servicio </button>
+
+                </div>
+
+
+
+            </div>
+
         </section>
 
-        <section class="politicas">
-            <ul class="politicas-block list">
-                <li class="politicas-list">
-                    <h3 class="politicas-title"> ATENCIÓN A LOS DETALLES </h3>
-                    <p class="politicas-text"> Nos adentramos en todos los detalles y procesos de su negocio, para
-                        así desarrollar una solución a su medida. </p>
-                </li>
 
-                <li class="politicas-list">
-                    <h3 class="politicas-title"> PUNTUALIDAD </h3>
-                    <p class="politicas-text"> Con nosotros, usted puede sentirse seguro y protegido. Un principio
-                        importante
-                        de la empresa: respetar su tiempo y respetar los plazos acordados. </p>
-                </li>
 
-                <li class="politicas-list">
-                    <h3 class="politicas-title"> PLANIFICACIÓN </h3>
-                    <p class="politicas-text"> Usted podrá observar y participar en cada fase del desarrollo y
-                        aplicación de soluciones. </p>
 
-                </li>
-                <li class="politicas-list">
-                    <h3 class="politicas-title"> TEGNOLOGÍA MODERNA </h3>
-                    <p class="politicas-text"> Usamos herramientas innovadoras para resolver las tareas asignadas.
-                        Es hora de simplificar los procesos laborales. </p>
-                </li>
-            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="parrafo__container section">
+            <div class="">
+
+                <ul class=" about__galery list container">
+                    <li class="politicas-list">
+
+                        <h3 class="politicas-title"> ATENCIÓN A LOS DETALLES </h3>
+                        <p class="politicas-text"> Nos adentramos en todos los detalles y procesos de su negocio, para
+                            así desarrollar una solución a su medida. </p>
+                    </li>
+
+                    <li class="politicas-list">
+                        <h3 class="politicas-title"> PUNTUALIDAD </h3>
+                        <p class="politicas-text"> Con nosotros, usted puede sentirse seguro y protegido. Un principio
+                            importante
+                            de la empresa: respetar su tiempo y respetar los plazos acordados. </p>
+                    </li>
+
+                    <li class="politicas-list">
+                        <h3 class="politicas-title"> PLANIFICACIÓN </h3>
+                        <p class="politicas-text"> Usted podrá observar y participar en cada fase del desarrollo y
+                            aplicación de soluciones. </p>
+
+                    </li>
+                    <li class="politicas-list">
+                        <h3 class="politicas-title"> TEGNOLOGÍA MODERNA </h3>
+                        <p class="politicas-text"> Usamos herramientas innovadoras para resolver las tareas asignadas.
+                            Es hora de simplificar los procesos laborales. </p>
+                    </li>
+                </ul>
+            </div>
+
         </section>
 
-        <section class="diseño">
-            <h2 class="diseño-title"> A qué nos dedicamos </h2>
-            <ul class="diseño-block">
-                <li class="diseño-list"> <img src="./images/a_que_nos_dedicamos_1.jpg"
-                        alt="imagen de persona programando" width="270" height="260">
-                </li>
-                <li class="diseño-list"><img src="./images/a_que_nos_dedicamos_2.jpg"
-                        alt="imagen de persona controlando" width="270" height="260">
-                </li>
-                <li class="diseño-list"><img src="./images/a_que_nos_dedicamos_3.jpg" alt="imagen de persona diseñando"
-                        width="270" height="260">
-                </li>
-            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="diseño container">
+            <div class="container">
+                <h2 class="diseño-title"> A qué nos dedicamos </h2>
+                <ul class="diseño-block">
+                    <li class="diseño-list"> <img src="./images/a_que_nos_dedicamos_1.jpg"
+                            alt="imagen de persona programando" width="270" height="260">
+                    </li>
+                    <li class="diseño-list"><img src="./images/a_que_nos_dedicamos_2.jpg"
+                            alt="imagen de persona controlando" width="270" height="260">
+                    </li>
+                    <li class="diseño-list"><img src="./images/a_que_nos_dedicamos_3.jpg"
+                            alt="imagen de persona diseñando" width="270" height="260">
+                    </li>
+                </ul>
+            </div>
+
+
         </section>
-        <section class="equipo">
-            <h2 class="equipo-title"> Nuestro Equipo </h2>
-            <ul class="equipo-list list">
-                <li class="Equipo-list-item "><img src="./images/andres_cubo.jpg" alt="Diseñador de Productos"
-                        width="270" height="260">
-                    <h3 class="equipo-name"> Andrés Cubo </h3>
-                    <p class="equipo-sub-title" lang="en"> Diseñador de Productos </p>
-                </li>
-                <li class="Equipo-list-item "><img src="./images/carla_palacios.jpg" alt="Desarrolladora Frontend"
-                        width="270" height="260">
-                    <h3 class="equipo-name">Carla Palacios </h3>
-                    <p class="equipo-sub-title" lang="en"> Desarrolladora Frontend </p>
-                </li>
-                <li class="Equipo-list-item "><img src="./images/mario_dorado.jpg" alt="Marketing" width="270"
-                        height="260">
-                    <h3 class="equipo-name"> Mario Dorado </h3>
-                    <p class="equipo-sub-title" lang="en"> Marketing </p>
-                </li>
-                <li class="Equipo-list-item "><img src="./images/pablo_mijangos.jpg" alt="Diseñador IU " width="270"
-                        height="260">
-                    <h3 class="equipo-name"> Pablo Mijangos </h3>
-                    <p class="equipo-sub-title" lang="en"> Diseñador IU </p>
-                </li>
-            </ul>
+        <section class="equipo container">
+            <div class="container">
+
+                <h2 class="equipo-title"> Nuestro Equipo </h2>
+                <ul class="equipo-list list">
+                    <li class="Equipo-list-item "><img src="./images/andres_cubo.jpg" alt="Diseñador de Productos"
+                            width="270" height="260">
+                        <h3 class="equipo-name"> Andrés Cubo </h3>
+                        <p class="equipo-sub-title" lang="en"> Diseñador de Productos </p>
+                    </li>
+                    <li class="Equipo-list-item "><img src="./images/carla_palacios.jpg" alt="Desarrolladora Frontend"
+                            width="270" height="260">
+                        <h3 class="equipo-name">Carla Palacios </h3>
+                        <p class="equipo-sub-title" lang="en"> Desarrolladora Frontend </p>
+                    </li>
+                    <li class="Equipo-list-item "><img src="./images/mario_dorado.jpg" alt="Marketing" width="270"
+                            height="260">
+                        <h3 class="equipo-name"> Mario Dorado </h3>
+                        <p class="equipo-sub-title" lang="en"> Marketing </p>
+                    </li>
+                    <li class="Equipo-list-item "><img src="./images/pablo_mijangos.jpg" alt="Diseñador IU " width="270"
+                            height="260">
+                        <h3 class="equipo-name"> Pablo Mijangos </h3>
+                        <p class="equipo-sub-title" lang="en"> Diseñador IU </p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
